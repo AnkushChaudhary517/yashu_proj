@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED838D88-DB6D-4187-8753-E36860424433}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Node_modules", "Node_modules", "{02EB6D33-6845-4BE3-A161-C3A9A881810D}"
+	ProjectSection(SolutionItems) = preProject
+		app.js = app.js
+		package-lock.json = package-lock.json
+		server.js = server.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{FB24FC73-0BB0-4D45-A372-3CD4456661EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "routes", "routes", "{279FE684-DD6F-4808-A450-63C3ACCE42E6}"
+	ProjectSection(SolutionItems) = preProject
+		products.js = products.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EB6D33-6845-4BE3-A161-C3A9A881810D} = {ED838D88-DB6D-4187-8753-E36860424433}
+		{FB24FC73-0BB0-4D45-A372-3CD4456661EB} = {ED838D88-DB6D-4187-8753-E36860424433}
+		{279FE684-DD6F-4808-A450-63C3ACCE42E6} = {FB24FC73-0BB0-4D45-A372-3CD4456661EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D64C4B4F-E852-4BF5-8E22-3DBABF70F01D}
+	EndGlobalSection
+EndGlobal
